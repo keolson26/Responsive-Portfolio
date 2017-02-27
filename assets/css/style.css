@@ -1,0 +1,264 @@
+body {
+	background-image: url("../images/ep_naturalwhite.png");
+}
+
+.primaryHeader {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+	margin: 0px;
+	padding: 30px 56px 31px 56px;
+	position: fixed;
+	top: 0px;
+	left: 60px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.secondaryHeader {
+	margin: 20px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 20px;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold
+
+}
+
+h6 {
+	color: #edebdf;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: fixed;
+	left: 725px;
+}
+
+a {
+	float: right;
+	padding: 40px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+}
+
+p {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;	
+	margin: 20px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	padding: 20px;
+	margin: 0px;
+	height: 60px;
+	width: 100%;
+	background: #666666;
+	border-top: solid 5px #4aaaa5;
+}
+.sectionHeader {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	height: 90px;
+	width: 100%;
+	background: #ffffff;
+	border-bottom: solid 3px #dddddd;
+}
+
+.wrapper{
+	width: 100%
+	margin: 0 auto;
+	padding: 140px 60px;
+}
+
+#links {
+	position: fixed;
+	right: 225px;
+	width: 40%;
+	height: 65px;
+}
+
+.content {
+	float: left;
+	border: solid 1px #dddddd;
+	background-color:#ffffff;
+	width: 800px;
+	height: 480px;
+	clear: both;
+}
+
+
+#BioImage {
+	float: left;
+	display: inline;
+	margin: 20px;
+	width:200px;
+	height:200px;
+}
+
+.LogoFormat {
+	width: 65px;
+	height: 65px;
+}
+
+.ConnectBox {
+	float: right;
+  	border: solid 1px #dddddd;
+  	text-align: center;
+  	background: #ffffff;
+}
+
+#FormContactReq {
+	border: solid 1px #dddddd;
+	float: left;
+	width: 750px;
+	height: 520px;
+	background-color:#ffffff;
+	width: 850px;
+	height: 480px;
+}
+
+form {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	position:fixed;
+	color: #777777;
+	left: 160px;
+	padding: 0px 36px 30px 36px;
+}
+
+input[type=text] {
+	color: #777777;
+    width: 510px;
+    height: 32px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+	color: #777777;
+    width: 510px;
+    height: 32px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#MessageBox {
+	color: #777777;
+    width: 510px;
+    height: 175px;
+    margin: 0px 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	border: none;
+	color: #edebdf;
+	width: 100px
+	height: 36px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#container1{
+	position: relative;
+}
+
+#container2{
+	position: relative;
+}
+
+#container3{
+	position: relative;
+}
+
+#container4{
+	position: relative;
+}
+
+#container5{
+	position: relative;
+}
+
+
+
+.portfolioImg {
+	float: left;
+	width: 225px;
+	height: 170px;
+	margin: 20px;
+	display: inline;
+}
+
+
+#caption1 {
+	position: absolute;
+	text-align:center;
+	left: 20px;
+	top:  125px;;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption2 {
+	position: absolute;
+	text-align:center;
+	left: 285px;
+	top:  125px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption3 {
+	position: absolute;
+	text-align:center;
+	left: 550px;
+	top:  125px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption4 {
+	position: absolute;
+	text-align:center;
+	left: 20px;
+	top:  345px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption5 {
+	position: absolute;
+	text-align:center;
+	left: 285px;
+	top:  345px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
