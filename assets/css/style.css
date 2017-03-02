@@ -257,12 +257,47 @@ input[type=submit] {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #edebdf;
 }
+}
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding: 80px;
+}
+
+.content {
+	width: 850px;
+	height: 960px;
+	margin-top: 40px;
+	clear: both;
+}
+
+p {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.secondaryHeader {
+	padding: 20px, 5px, 5px, 5px;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+#BioImage {
+	float: left;
+	display: inline;
+	margin: 10px;
+	width:325px;
+	height:325px;
+}
+
 
 }
 
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
 
 #links {
 	right: 60px;
@@ -502,7 +537,7 @@ h3 {
 	margin: 5px;
 	padding-top: 20px;
 	float: left;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 footer {
